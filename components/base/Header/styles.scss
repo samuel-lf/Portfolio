@@ -6,6 +6,9 @@
   @media screen and (min-width: 1800px){
     justify-content: space-around;
   }
+  @media screen and (max-width: 350px){
+    padding: 30px 20px;
+  }
 }
 
 .logo{
