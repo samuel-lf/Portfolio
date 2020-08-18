@@ -18,6 +18,7 @@ export default {
     }
   },
   css: [
+    '~/assets/scss/global.scss'
   ],
   plugins: [
   ],
