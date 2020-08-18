@@ -2,11 +2,17 @@ export default {
   mode: 'universal',
   target: 'static',
   head: {
-    title: process.env.npm_package_name || '',
+    htmlAttrs: {
+      lang: 'pt-BR',
+    },
+    title: 'Samuel Leonel | Desenvolvedor Front-End',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: 'Samuel Leonel - desenvolvedor Front-End. Desenvolvendo soluções muito além do código' },
+      { name: "google-site-verification", content: "RT5rLLKWiYz20xICLDotAhNniqo7a5seyiqWfxEW7Qw" },
+      { name: 'keywords', content: 'Samuel, Samuel Leonel, Desenvolvedor, Web, Portfólio, Front-end, UX, UI, Mobile' },
+      { name: 'author', content: 'Samuel Leonel' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
