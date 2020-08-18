@@ -1,11 +1,16 @@
 <template>
   <div>
-    <h1>teste</h1>
+    <Principal />
   </div>
 </template>
 
 <script>
-export default {}
+import Principal from '../components/blocks/Principal'
+export default {
+  components: {
+    Principal
+  }
+}
 </script>
 
 <style>

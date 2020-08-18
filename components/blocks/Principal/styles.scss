@@ -1,0 +1,163 @@
+.introduction{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  & .content{
+    color: var(--font-color);
+    & .hello{
+      font-size: 26px;
+      margin: 0;
+    }
+    & .developer{
+      font-size: 58px;
+      margin: 10px 0;
+      color: var(--font-color);
+    }
+    & .hobbies{
+      width: max-content;
+      & .text{
+        margin: 0;
+        font-size: 26px;
+      }
+    }
+  }
+
+  & .image{
+    & .img{
+      width: 400px;
+    }
+  }
+}
+
+.social{
+  margin-top: 20px;
+  & .content {
+    display: flex;
+    & .link {
+      padding: 10px 10px 10px 0;
+      & .icon path{
+        fill: var(--primary-color);
+      }
+      &:hover {
+        & .icon{
+          transition: 0.5s all;
+          transform: scale(1.5);
+        }
+      }
+    }
+  }
+}
+
+.mouse{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.displayNone {
+  display: none;
+}
+
+.bounce {
+  animation: bounce 4s infinite both;
+}
+
+
+@media screen and (max-width: 1250px){
+  .introduction{
+    & .content{
+      & .developer{
+        font-size: 42px;
+        margin: 10px 0;
+      }
+    }
+    & .image{
+      & .img{
+        width: 350px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 950px){
+  .introduction{
+    flex-direction: column;
+    text-align: center;
+    & .content{
+      & .hobbies{
+        margin: 0 auto;
+      }
+    }
+    & .image{
+      & .img{
+        width: 50%;
+      }
+    }
+  }
+
+  .social{
+    & .content {
+      justify-content: center;
+      & .link {
+        padding: 10px 10px 10px 0;
+        & .icon{
+          width: 28px;
+          height: 28px;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 550px){
+  .introduction{
+    & .content{
+      & .hello{
+        font-size: 18px;
+      }
+      & .developer{
+        font-size: 28px;
+        margin: 10px 0;
+      }
+      & .hobbies{
+        & .text{
+          font-size: 18px;
+        }
+      }
+    }
+    & .image{
+      & .img{
+        width: 100%;
+        max-width: 300px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px){
+  .introduction{
+    & .content{
+      & .hello{
+        font-size: 16px;
+      }
+      & .developer{
+        font-size: 26px;
+        margin: 10px 0;
+      }
+      & .hobbies{
+        & .text{
+          font-size: 16px;
+        }
+      }
+    }
+    & .image{
+      & .img{
+        width: 100%;
+        max-width: 180px;
+      }
+    }
+  }
+}
+
