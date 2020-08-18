@@ -1,0 +1,76 @@
+#menu-mobile{
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+.btnHamburger{
+  display: none;
+  @media screen and (max-width: 949px) {
+    display: block;
+    & .hambuguer{
+      width: 35px;
+      height: 35px;
+      cursor: pointer;
+      & path {
+        fill: var(--primary-color);
+      }
+    }
+  }
+}
+
+.btnClose{
+  width: 100%;
+  padding: 0 20px;
+  & .close{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    & path {
+      fill: var(--primary-color);
+    }
+  }
+}
+
+.menu {
+  @media screen and (max-width: 949px){
+    position: fixed;
+    display: flex;
+    width: 60vh;
+    height: 100vh;
+    background: #fff;
+    top: 0;
+    z-index: 2;
+    right: -200%;
+    flex-direction: column;
+    padding: 0;
+    padding-top: 15px;
+    align-items: center;
+    transition: all .5s;
+    & ul {
+      list-style: none;
+      font-weight: 400;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      & li {
+        margin: 20px 0;
+        & a {
+          padding: 10px 15px 10px 0;
+          color: var(--primary-background);
+        }
+      }
+    }
+    &.active{
+      right: 0;
+      box-shadow: 0 6px 15px 2px rgba(0,0,0,.2);
+      @media screen and (max-width: 500px){
+        left: 0;
+      }
+    }
+  }
+}
+
