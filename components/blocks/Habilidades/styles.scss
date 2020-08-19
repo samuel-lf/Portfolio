@@ -1,0 +1,26 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 650px));
+  justify-items: center;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin: 0 20px;
+}
+
+.card{
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  & > .image {
+    width: 30px;
+  }
+  & > .technology {
+    color: #fff;
+    font-size: 18px;
+    margin: 20px 0 20px 20px;
+  }
+}
