@@ -1,0 +1,144 @@
+.timeline {
+  padding: 0px 5%;
+}
+
+.record {
+  display: flex;
+  align-items: flex-start;
+
+  > div {
+    flex: 1;
+    padding: 20px 40px;
+
+    &:last-child {
+      text-align: left;
+      padding-bottom: 40px !important;
+    }
+  }
+
+  &:nth-child(odd) {
+    > div {
+      &:first-child {
+        text-align: right;
+        position: relative;
+
+        &::after {
+          right: -11px;
+        }
+      }
+
+      &:last-child {
+        text-align: left;
+        border-left: 2px solid var(--primary-color);
+      }
+    }
+
+    .memory {
+      & > h2{
+        text-align: left !important;
+      }
+      & > p{
+        margin: 1em 0;
+      }
+    }
+
+    .date > div {
+      margin-right: 0px;
+    }
+  }
+
+  &:nth-child(even) {
+    > div {
+      &:first-child {
+        order: 2;
+        text-align: left;
+        position: relative;
+
+        &::after {
+          left: -1px;
+        }
+      }
+
+      &:last-child {
+        order: 1;
+        text-align: right;
+        border-right: 2px solid var(--primary-color);
+      }
+    }
+
+    .date > div {
+      margin-left: 0px;
+    }
+
+    .memory {
+      & > h2{
+        text-align: right !important;
+      }
+      & > p{
+        color: var(--font-color);
+        margin: 1em 0;
+      }
+    }
+  }
+
+  > div:first-child::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0 4px rgba(204,69,75, 0.2);
+  }
+
+  .date > div {
+    background-color: var(--primary-color);
+    box-shadow: 0 0 0 4px rgba(204,69,75, 0.2);
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    max-width: max-content;
+    margin: auto;
+    padding: 10px 20px;
+  }
+
+  .memory {
+    > h2 {
+      margin: 0px;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: var(--font-color);
+    }
+    > p{
+      color: var(--font-color);
+    }
+    p > span {
+      margin: 0px;
+      font-weight: bold;
+      color: var(--primary-color);
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .record {
+    flex-direction: column;
+    border-left: 2px solid var(--primary-color);
+
+    > div {
+      border-width: 0px !important;
+      text-align: left !important;
+      order: unset !important;
+
+      &::after {
+        left: 0% !important;
+      }
+    }
+
+    &:nth-child(odd) .memory > h2, &:nth-child(even) .memory > h2 {
+      text-align: left !important;
+    }
+  }
+}
