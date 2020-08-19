@@ -21,32 +21,32 @@
 
         <ul>
           <li>
-            <a href="#sobre">
-              Sobre mim
-            </a>
-          </li>
-          <li>
-            <a href="#habilidades">
-              A empresa
-            </a>
-          </li>
-          <li>
-            <a href="#experiencias">
-              Experiências
-            </a>
-          </li>
-          <li>
-            <a href="#projetos">
+            <a href="#projetos" @click="scrollBehavior($event)">
               Projetos
             </a>
           </li>
           <li>
-            <a href="#blog">
+            <a href="#sobre" @click="scrollBehavior($event)">
+              Sobre mim
+            </a>
+          </li>
+          <li>
+            <a href="#habilidades" @click="scrollBehavior($event)">
+              Habilidades
+            </a>
+          </li>
+          <li>
+            <a href="#experiencias" @click="scrollBehavior($event)">
+              Experiências
+            </a>
+          </li>
+          <li>
+            <a href="#blog" @click="scrollBehavior($event)">
               Blog
             </a>
           </li>
           <li>
-            <a href="#contato">
+            <a href="#contato" @click="scrollBehavior($event)">
               Contato
             </a>
           </li>
@@ -94,6 +94,11 @@ export default {
       if(width > 850 && this.check){
         this.check = false
       }
+    },
+    scrollBehavior(event) {
+      event.preventDefault()
+      const link = event.target
+      document.querySelector(link.getAttribute('href')).scrollIntoView({ behavior: 'smooth' })
     }
   }
 }
