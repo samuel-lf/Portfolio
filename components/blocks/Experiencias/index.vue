@@ -1,5 +1,5 @@
 <template>
-  <section id="experiencias" class="section">
+  <section id="experiencias" class="section sectionSpace">
     <h2 class="title">Experiências</h2>
     <p class="subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo tempora dignissimos inventore debitis repellendus sequi consectetur eligendi quibusdam. Fuga itaque optio id deleniti, distinctio ratione fugit voluptate vel tempora veniam?</p>
     <div class="timeline">

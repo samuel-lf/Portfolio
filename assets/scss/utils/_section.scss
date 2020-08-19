@@ -12,12 +12,14 @@
     margin: 15px 0 20px 0;
     padding: 0 20px;
   }
-}
-
-.sectionFull {
-  height: 85vh;
-  display: grid;
-  grid-template-rows: 65vh 10vh;
+  &Full {
+    height: 85vh;
+    display: grid;
+    grid-template-rows: 65vh 10vh;
+  }
+  &Space {
+    margin-top: 40px;
+  }
 }
 
 @media screen and (max-width: 375px){
