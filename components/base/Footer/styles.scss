@@ -25,6 +25,9 @@
     margin-bottom: 30px;
     & .item{
       margin: 0 10px;
+      @media screen and (max-width: 350px) {
+        margin: 0 5px;
+      }
       & .link{
         display: flex;
         justify-content: center;
