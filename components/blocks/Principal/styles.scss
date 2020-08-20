@@ -24,7 +24,7 @@
 
   & .image{
     & .img{
-      width: 400px;
+      width: 400px !important;
     }
   }
 }
@@ -63,6 +63,16 @@
   animation: bounce 4s infinite both;
 }
 
+@media screen and (min-width: 1600px){
+  .introduction{
+    & .image{
+      & .img{
+        width: 600px !important;
+      }
+    }
+  }
+}
+
 
 @media screen and (max-width: 1250px){
   .introduction{
@@ -74,7 +84,7 @@
     }
     & .image{
       & .img{
-        width: 350px;
+        width: 350px !important;
       }
     }
   }
@@ -91,7 +101,7 @@
     }
     & .image{
       & .img{
-        width: 50%;
+        width: 80% !important;
       }
     }
   }
@@ -129,8 +139,8 @@
     }
     & .image{
       & .img{
-        width: 100%;
-        max-width: 300px;
+        width: 100% !important;
+        max-width: 300px !important;
       }
     }
   }
@@ -154,8 +164,8 @@
     }
     & .image{
       & .img{
-        width: 100%;
-        max-width: 180px;
+        width: 100% !important;
+        max-width: 180px !important;
       }
     }
   }

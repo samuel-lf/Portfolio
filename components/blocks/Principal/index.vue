@@ -40,7 +40,8 @@
         </div>
       </div>
       <div class="image">
-        <img class="img" :src="require('~/assets/images/samuel_leonel.png')" alt="">
+        <!-- <img class="img" :src="require('~/assets/images/samuel_leonel.png')" alt=""> -->
+        <lottie :options="defaultOptions" v-on:animCreated="handleAnimation" class="img"/>
       </div>
     </div>
     <div class="mouse">
@@ -56,7 +57,8 @@ import GithubLogo from '~/assets/images/social/github.svg?inline'
 import InstagramLogo from '~/assets/images/social/instagram.svg?inline'
 import TwitterLogo from '~/assets/images/social/twitter.svg?inline'
 import MouseArrowIcon from '~/assets/images/icons/mouse_arrow.svg?inline'
-
+import Lottie from 'vue-lottie/src/lottie.vue';
+import * as animationData from '~/assets/images/19648-hey.json';
 
 export default {
   components:{
@@ -65,9 +67,19 @@ export default {
     GithubLogo,
     InstagramLogo,
     TwitterLogo,
-    MouseArrowIcon
+    MouseArrowIcon,
+    Lottie
+  },
+  data() {
+    return {
+      defaultOptions: {animationData: animationData.default},
+      animationSpeed: 1
+    }
   },
   methods:{
+    handleAnimation: function (anim) {
+      this.anim = anim;
+    },
     typing(){
       let hobbies = document.querySelectorAll('.text');
       let index = 0;
