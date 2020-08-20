@@ -21,23 +21,23 @@
 
         <ul>
           <li>
-            <a href="#projetos" @click="scrollBehavior($event)">
-              Projetos
-            </a>
-          </li>
-          <li>
             <a href="#sobre" @click="scrollBehavior($event)">
               Sobre mim
             </a>
           </li>
           <li>
-            <a href="#habilidades" @click="scrollBehavior($event)">
-              Habilidades
+            <a href="#projetos" @click="scrollBehavior($event)">
+              Projetos
             </a>
           </li>
           <li>
-            <a href="#experiencias" @click="scrollBehavior($event)">
-              Experiências
+            <a href="#servicos" @click="scrollBehavior($event)">
+              Serviços
+            </a>
+          </li>
+          <li>
+            <a href="#habilidades" @click="scrollBehavior($event)">
+              Habilidades
             </a>
           </li>
           <li>

@@ -2,8 +2,8 @@
   <div>
     <Principal />
     <Sobre />
+    <Servicos />
     <Habilidades />
-    <Experiencias />
     <Contato />
   </div>
 </template>
@@ -12,15 +12,15 @@
 import Principal from '../components/blocks/Principal'
 import Sobre from '../components/blocks/Sobre'
 import Habilidades from '../components/blocks/Habilidades'
-import Experiencias from '../components/blocks/Experiencias'
+import Servicos from '../components/blocks/Servicos'
 import Contato from '../components/blocks/Contato'
 
 export default {
   components: {
     Principal,
     Sobre,
+    Servicos,
     Habilidades,
-    Experiencias,
     Contato
   }
 }
