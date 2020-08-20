@@ -1,0 +1,30 @@
+.sobreMim {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 4%;
+  max-width: 1800px;
+  & .text {
+    margin-right: 40px;
+  }
+  & .image {
+    width: 100%;
+    max-width: 350px;
+  }
+  @media screen and (max-width: 949px){
+    flex-wrap: wrap;
+    justify-content: center;
+    & .text {
+      margin-right: 0;
+      margin-top: 40px;
+    }
+    & .image {
+      order: -1;
+    }
+  }
+  @media screen and (max-width: 500px){
+    & .image {
+      max-width: 280px;
+    }
+  }
+}
