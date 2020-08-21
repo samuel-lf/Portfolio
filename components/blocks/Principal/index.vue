@@ -6,7 +6,7 @@
         <h1 class="developer">Desenvolvedor Front-End</h1>
         <div class="hobbies">
           <p class="hobby typing">Apaixonado por UX/UI</p>
-          <p class="hobby displayNone">Apaixonado por tecnologias web e mobile</p>
+          <p class="hobby displayNone">Entusiasta das tecnologias web e mobile</p>
           <p class="hobby displayNone">Escritor nas horas vagas</p>
         </div>
         <div class="social">

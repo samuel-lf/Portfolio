@@ -5,8 +5,8 @@
       <div>
         <p class="hello">Samuel Leonel, ao seu dispor!</p>
         <p class="text">
-          Formado em Análise e Desenvolvimento de Sistemas pela FATEC e atuando na área de desenvolvimento web há aproximadamente 2 anos e meio.
-          Sou apaixado pela minha profissão e busco sempre aperfeiçoar meus conhecimentos, além de sempre estar buscando novos desafios. Meu hobby favorito é consumir conteúdo sobre tecnologia,
+          Formado em Análise e Desenvolvimento de Sistemas pela FATEC e atuando na área de desenvolvimento web há mais de 2 anos.
+          Sou apaixado pela minha profissão e busco sempre aperfeiçoar conhecimentos, além de estar em constante busca por novos desafios. Meu hobby favorito é consumir conteúdo sobre tecnologia,
           desde novas ferramentas que possam auxiliar no desenvolvimento e evolução do meu trabalho até informações sobre aquele novo smartphone que vai sair no final do ano.
         </p>
       </div>

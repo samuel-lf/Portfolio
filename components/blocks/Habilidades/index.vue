@@ -1,7 +1,7 @@
 <template>
   <section id="habilidades" class="section sectionSpace">
     <h2 class="title">Habilidades</h2>
-    <p class="subtitle">Expertise nas ferramentas que me auxiliam no desenvolvimento da soluções mais modernas.</p>
+    <p class="subtitle">Expertise nas ferramentas que me auxiliam no desenvolvimento das soluções mais modernas.</p>
     <div class="container">
       <div class="card">
         <img class="image" src="~/assets/images/technology/html5.svg" alt="Logo do HTML 5">
