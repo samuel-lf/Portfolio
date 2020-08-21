@@ -72,3 +72,31 @@
     }
   }
 }
+
+.sendSuccess{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  & .icon {
+    width: 150px;
+    & path{
+      fill: var(--primary-color);
+    }
+  }
+  & > .title {
+    color: var(--primary-color);
+    margin: 10px 0;
+    font-size: 32px;
+    @media screen and (max-width: 420px){
+      font-size: 26px;
+    }
+    @media screen and (max-width: 350px){
+      font-size: 20px;
+    }
+  }
+  & > .text {
+    color: var(--font-color);
+    margin-bottom: 10px;
+  }
+}
