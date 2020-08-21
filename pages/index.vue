@@ -2,7 +2,7 @@
   <div>
     <Principal />
     <Sobre />
-    <Servicos />
+    <Solucoes />
     <Habilidades />
     <Contato />
   </div>
@@ -12,14 +12,14 @@
 import Principal from '../components/blocks/Principal'
 import Sobre from '../components/blocks/Sobre'
 import Habilidades from '../components/blocks/Habilidades'
-import Servicos from '../components/blocks/Servicos'
+import Solucoes from '../components/blocks/Solucoes'
 import Contato from '../components/blocks/Contato'
 
 export default {
   components: {
     Principal,
     Sobre,
-    Servicos,
+    Solucoes,
     Habilidades,
     Contato
   }

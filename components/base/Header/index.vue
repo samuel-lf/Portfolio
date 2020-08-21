@@ -31,8 +31,8 @@
             </a>
           </li>
           <li>
-            <a href="#servicos" @click="scrollBehavior($event)">
-              Serviços
+            <a href="#solucoes" @click="scrollBehavior($event)">
+              Soluções
             </a>
           </li>
           <li>
