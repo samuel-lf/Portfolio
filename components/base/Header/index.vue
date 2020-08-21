@@ -41,11 +41,6 @@
             </a>
           </li>
           <li>
-            <a href="#blog" @click="scrollBehavior($event)">
-              Blog
-            </a>
-          </li>
-          <li>
             <a href="#contato" @click="scrollBehavior($event)">
               Contato
             </a>
