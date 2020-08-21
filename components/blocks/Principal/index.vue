@@ -5,9 +5,9 @@
         <p class="hello">Olá! Sou o Samuel Leonel</p>
         <h1 class="developer">Desenvolvedor Front-End</h1>
         <div class="hobbies">
-          <p class="text typing">Apaixonado por UX/UI</p>
-          <p class="text displayNone">Apaixonado por tecnologias web e mobile</p>
-          <p class="text displayNone">Escritor nas horas vagas</p>
+          <p class="hobby typing">Apaixonado por UX/UI</p>
+          <p class="hobby displayNone">Apaixonado por tecnologias web e mobile</p>
+          <p class="hobby displayNone">Escritor nas horas vagas</p>
         </div>
         <div class="social">
           <ul class="content">
@@ -81,7 +81,8 @@ export default {
       this.anim = anim;
     },
     typing(){
-      let hobbies = document.querySelectorAll('.text');
+      console.log()
+      let hobbies = document.querySelectorAll('.hobby');
       let index = 0;
       setInterval(function(){
         [...hobbies].map(function(hobbie, index){
