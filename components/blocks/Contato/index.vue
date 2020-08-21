@@ -4,25 +4,25 @@
     <p class="subtitle">Podemos tomar um café (mesmo que seja virtual) e prozear sobre como posso auxiliar você desenvolvendo uma solução única.</p>
     <form class="form" @submit="sendEmail" v-if="emailSend === false">
       <div class="block">
-        <input class="input" type="text" name="name" v-model="data.nome" required>
+        <input class="input" type="text" id="name" name="name" v-model="data.nome" required>
         <label for="name" class="label">
           <span class="content">Nome completo</span>
         </label>
       </div>
       <div class="block">
-        <input class="input" type="email" name="email" v-model="data.email" required>
+        <input class="input" type="email" id="email" name="email" v-model="data.email" required>
         <label for="email" class="label">
           <span class="content">E-mail</span>
         </label>
       </div>
       <div class="block">
-        <input class="input" type="text" name="assunto" v-model="data.assunto" required>
+        <input class="input" type="text" id="assunto" name="assunto" v-model="data.assunto" required>
         <label for="assunto" class="label">
           <span class="content">Assunto</span>
         </label>
       </div>
       <div class="block">
-        <input class="input" type="text" name="mensagem" v-model="data.mensagem" required>
+        <input class="input" type="text" id="mensagem" name="mensagem" v-model="data.mensagem" required>
         <label for="mensagem" class="label">
           <span class="content">Mensagem</span>
         </label>

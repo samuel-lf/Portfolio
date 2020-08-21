@@ -12,27 +12,27 @@
         <div class="social">
           <ul class="content">
             <li>
-              <a class="link" href="https://github.com/samuel-lf" target="blank">
+              <a class="link" href="https://github.com/samuel-lf" target="blank" aria-label="Github">
                 <GithubLogo class="icon" />
               </a>
             </li>
             <li>
-              <a class="link" href="https://www.linkedin.com/in/samuel-leonel-4a9ab7130" target="blank">
+              <a class="link" href="https://www.linkedin.com/in/samuel-leonel-4a9ab7130" target="blank" aria-label="LinkedIn">
                 <LinkedInLogo class="icon" />
               </a>
             </li>
             <li>
-              <a class="link" href="https://www.facebook.com/samuellf97" target="blank">
+              <a class="link" href="https://www.facebook.com/samuellf97" target="blank" aria-label="Facebook">
                 <FacebookLogo class="icon" />
               </a>
             </li>
             <li>
-              <a class="link" href="https://www.instagram.com/samuel_lf/" target="blank">
+              <a class="link" href="https://www.instagram.com/samuel_lf/" target="blank" aria-label="Instagram">
                 <InstagramLogo class="icon" />
               </a>
             </li>
             <li>
-              <a class="link" href="https://twitter.com/Samuel__Leonel" target="blank">
+              <a class="link" href="https://twitter.com/Samuel__Leonel" target="blank" aria-label="Twitter">
                 <TwitterLogo class="icon" />
               </a>
             </li>

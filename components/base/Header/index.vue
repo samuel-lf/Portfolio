@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="container">
-      <nuxt-link to="/" class="logo">
+      <nuxt-link to="/" class="logo" aria-label="Logo">
         <Logo class="icon" />
       </nuxt-link>
 
