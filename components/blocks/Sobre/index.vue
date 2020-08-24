@@ -10,7 +10,12 @@
           desde novas ferramentas que possam auxiliar no desenvolvimento e evolução do meu trabalho até informações sobre aquele novo smartphone que vai sair no final do ano.
         </p>
       </div>
-      <img class="image" src="~assets/images/samuel_leonel.png" alt="Minha foto">
+
+      <picture>
+        <source srcset="~assets/images/samuel_leonel.webp" type="image/webp">
+        <source srcset="~assets/images/samuel_leonel.png" type="image/png">
+        <img class="image" src="~assets/images/samuel_leonel.png" alt="Minha foto">
+      </picture>
     </div>
   </section>
 </template>
