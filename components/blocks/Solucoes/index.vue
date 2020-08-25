@@ -11,7 +11,7 @@
       >
         <Wireframe class="icon" />
         <p class="title">Wireframe</p>
-        <p class="text">Desenvolvimento da estrutura da solução, através de traços e esboços que simbolizam um todo. A primeira parte do desenvolvimento de um fluxo deve ser analisada de forma crítica e pontual tentando prever possíveis caminhos que o usuário venha a utilizar.</p>
+        <p class="text">Desenvolvimento da estrutura através de traços e esboços que simbolizam um todo. A primeira parte do desenvolvimento de um fluxo deve ser analisada de forma crítica e pontual, tentando prever possíveis caminhos que o usuário venha a utilizar.</p>
       </div>
       <div class="card"
         data-sal="slide-up"
