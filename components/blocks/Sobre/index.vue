@@ -2,7 +2,12 @@
   <section id="sobre" class="section">
     <h2 class="title">Sobre mim</h2>
     <div class="sobreMim">
-      <div>
+      <div
+        data-sal="slide-right"
+        data-sal-delay="100"
+        data-sal-duration="800"
+        data-sal-easing="ease-out-bounce"
+      >
         <p class="hello">Samuel Leonel, ao seu dispor!</p>
         <p class="text">
           Formado em Análise e Desenvolvimento de Sistemas pela FATEC e atuando na área de desenvolvimento web há mais de 2 anos.
@@ -11,7 +16,12 @@
         </p>
       </div>
 
-      <picture>
+      <picture
+        data-sal="slide-left"
+        data-sal-delay="100"
+        data-sal-duration="800"
+        data-sal-easing="ease-out-bounce"
+        >
         <source srcset="~assets/images/samuel_leonel.webp" type="image/webp">
         <source srcset="~assets/images/samuel_leonel.png" type="image/png">
         <img class="image" src="~assets/images/samuel_leonel.png" alt="Minha foto">
@@ -21,8 +31,11 @@
 </template>
 
 <script>
+import sal from "sal.js";
 export default {
-
+ mounted() {
+  sal();
+ }
 }
 </script>
 

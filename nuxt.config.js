@@ -24,7 +24,8 @@ export default {
     }
   },
   css: [
-    '~/assets/scss/global.scss'
+    '~/assets/scss/global.scss',
+    '@/node_modules/sal.js/dist/sal.css'
   ],
   plugins: [
   ],

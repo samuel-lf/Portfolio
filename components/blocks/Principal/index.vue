@@ -11,27 +11,27 @@
         </div>
         <div class="social">
           <ul class="content">
-            <li>
+            <li data-sal="zoom-in" data-sal-delay="100" data-sal-duration="800" data-sal-easing="ease-out-bounce">
               <a class="link" href="https://github.com/samuel-lf" target="blank" aria-label="Github">
                 <GithubLogo class="icon" />
               </a>
             </li>
-            <li>
+            <li data-sal="zoom-in" data-sal-delay="200" data-sal-duration="800" data-sal-easing="ease-out-bounce">
               <a class="link" href="https://www.linkedin.com/in/samuel-leonel-4a9ab7130" target="blank" aria-label="LinkedIn">
                 <LinkedInLogo class="icon" />
               </a>
             </li>
-            <li>
+            <li data-sal="zoom-in" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">
               <a class="link" href="https://www.facebook.com/samuellf97" target="blank" aria-label="Facebook">
                 <FacebookLogo class="icon" />
               </a>
             </li>
-            <li>
+            <li data-sal="zoom-in" data-sal-delay="400" data-sal-duration="800" data-sal-easing="ease-out-bounce">
               <a class="link" href="https://www.instagram.com/samuel_lf/" target="blank" aria-label="Instagram">
                 <InstagramLogo class="icon" />
               </a>
             </li>
-            <li>
+            <li data-sal="zoom-in" data-sal-delay="500" data-sal-duration="800" data-sal-easing="ease-out-bounce">
               <a class="link" href="https://twitter.com/Samuel__Leonel" target="blank" aria-label="Twitter">
                 <TwitterLogo class="icon" />
               </a>
@@ -40,7 +40,6 @@
         </div>
       </div>
       <div class="image">
-        <!-- <img class="img" :src="require('~/assets/images/samuel_leonel.png')" alt=""> -->
         <lottie :options="defaultOptions" v-on:animCreated="handleAnimation" class="img"/>
       </div>
     </div>
@@ -59,6 +58,7 @@ import TwitterLogo from '~/assets/images/social/twitter.svg?inline'
 import MouseArrowIcon from '~/assets/images/icons/mouse_arrow.svg?inline'
 import Lottie from 'vue-lottie/src/lottie.vue';
 import * as animationData from '~/assets/images/19648-hey.json';
+import sal from "sal.js";
 
 export default {
   components:{
@@ -100,6 +100,7 @@ export default {
   },
   mounted(){
     this.typing();
+    sal();
   }
 }
 </script>

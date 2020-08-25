@@ -20,27 +20,27 @@
         </div>
 
         <ul>
-          <li>
+          <li data-sal="slide-right" data-sal-delay="100" data-sal-duration="800" data-sal-easing="ease-out-bounce">
             <a href="#sobre" @click="scrollBehavior($event)">
               Sobre mim
             </a>
           </li>
-          <li>
+          <li data-sal="slide-right" data-sal-delay="200" data-sal-duration="800" data-sal-easing="ease-out-bounce">
             <a href="#projetos" @click="scrollBehavior($event)">
               Projetos
             </a>
           </li>
-          <li>
+          <li data-sal="slide-right" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">
             <a href="#solucoes" @click="scrollBehavior($event)">
               Soluções
             </a>
           </li>
-          <li>
+          <li data-sal="slide-right" data-sal-delay="400" data-sal-duration="800" data-sal-easing="ease-out-bounce">
             <a href="#habilidades" @click="scrollBehavior($event)">
               Habilidades
             </a>
           </li>
-          <li>
+          <li data-sal="slide-right" data-sal-delay="500" data-sal-duration="800" data-sal-easing="ease-out-bounce">
             <a href="#contato" @click="scrollBehavior($event)">
               Contato
             </a>
@@ -56,6 +56,7 @@
 import Logo from '~/assets/images/logo/logo.svg?inline'
 import MenuHamburguer from '~/assets/images/icons/menu_mobile.svg?inline'
 import Close from '~/assets/images/icons/close.svg?inline'
+import sal from "sal.js";
 
 export default {
   components: {
@@ -77,6 +78,7 @@ export default {
     }
   },
   mounted() {
+    sal();
     const observableResize = new ResizeObserver(entries => {
       for (let entry of entries) {
         this.onResize(entry.contentRect.width)
