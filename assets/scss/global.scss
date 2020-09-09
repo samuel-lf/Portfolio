@@ -2,4 +2,20 @@
 @import './reset';
 @import './normalize';
 @import './animations/animation';
-@import './utils/section'
+@import './utils/section';
+
+
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--primary-background);
+}
