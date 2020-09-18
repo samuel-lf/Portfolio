@@ -96,6 +96,7 @@ export default {
       event.preventDefault()
       const link = event.target
       document.querySelector(link.getAttribute('href')).scrollIntoView({ behavior: 'smooth' })
+      this.check = false
     }
   }
 }
