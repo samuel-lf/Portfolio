@@ -2,6 +2,7 @@
   <div>
     <Principal />
     <Sobre />
+    <Projetos />
     <Solucoes />
     <Habilidades />
     <Contato />
@@ -11,6 +12,7 @@
 <script>
 import Principal from '../components/blocks/Principal'
 import Sobre from '../components/blocks/Sobre'
+import Projetos from '../components/blocks/Projetos'
 import Habilidades from '../components/blocks/Habilidades'
 import Solucoes from '../components/blocks/Solucoes'
 import Contato from '../components/blocks/Contato'
