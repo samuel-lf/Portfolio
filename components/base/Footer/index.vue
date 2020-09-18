@@ -9,7 +9,7 @@
         </a>
       </li>
       <li class="item" data-sal="zoom-in" data-sal-delay="200" data-sal-duration="800" data-sal-easing="ease-out-bounce">
-        <a class="link" href="https://www.linkedin.com/in/samuel-leonel-4a9ab713" target="blank" aria-label="LinkedIn">
+        <a class="link" href="https://www.linkedin.com/in/samuel-leonel-4a9ab7130" target="blank" aria-label="LinkedIn">
           <LinkedInLogo />
         </a>
       </li>
