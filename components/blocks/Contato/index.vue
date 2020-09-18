@@ -1,7 +1,7 @@
 <template>
   <section id="contato" class="section sectionSpace">
     <h2 class="title">Vamos conversar?</h2>
-    <p class="subtitle">Podemos tomar um café (mesmo que seja virtual) e prozear sobre como posso auxiliar você desenvolvendo uma solução única.</p>
+    <p class="subtitle">Podemos tomar um café (mesmo que seja virtual) e prozear sobre como posso auxiliar você a desenvolver uma solução única.</p>
     <form class="form" @submit="sendEmail" v-if="emailSend === false">
       <div class="block">
         <input class="input" type="text" id="name" name="name" v-model="data.nome" required>
