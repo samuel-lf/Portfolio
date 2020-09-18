@@ -11,7 +11,10 @@
       >
         <p class="title">Nascimento distribuidora</p>
         <p class="description">Projeto de um site institucional para uma empresa revendedora de produtos agrícolas e agropecuários. O projeto foi idelizado para realizar a exibição dos produtos e tornar a marca mais visível dentro da internet. O projeto foi feito com NuxtJs.</p>
-        <p class="description">Conheça o site: <a href="https://www.nascimentodistribuidora.com.br/" target="blank" class="link">clique aqui</a></p>
+        <p class="description">
+          Conheça o site:
+          <a href="https://www.nascimentodistribuidora.com.br/" target="blank" class="link" aria-label="link para o site da empresa Nascimento distribuidora">clique aqui</a>
+        </p>
         <!-- <div class="pages">
           <button class="btnLeft">
             <Arrow />
