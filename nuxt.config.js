@@ -1,5 +1,4 @@
 export default {
-  mode: 'universal',
   target: 'static',
   head: {
     htmlAttrs: {
@@ -35,8 +34,12 @@ export default {
   modules: [
     '@nuxtjs/axios',
     'nuxt-webfontloader',
-    "@nuxtjs/svg"
+    "@nuxtjs/svg",
+    "@nuxtjs/google-analytics"
   ],
+  googleAnalytics: {
+    id: "UA-178383535-1"
+  },
   axios: {},
   build: {
   }
